@@ -1,0 +1,22 @@
+## 3. Almacenamiento de logs
+
+Para el almacenamiento de los logs hay múltiples opciones.
+
+- **Almacenamiento en ficheros**:
+    
+    - Habitualmente los logs se almacenan en primera instancia en archivos en el propio disco de la máquina que los genera, de la máquina donde se encuentra instalada la aplicación, etc., o incluso enviados por red a otros servidores de almacenamiento.
+    
+    - Dado que el almacenamiento ha sido tradicionalmente limitado, estos archivos suelen rotarse por tamaño (cuando alcanzan un volumen determinado) o por tiempo (cada hora, cada día, cada semana...), con la consiguiente pérdida de información.
+
+- **Almacenamiento en bases de datos relacionales**:
+    
+    - Los logs pueden ser enviados a bases de datos relacionales como medio de almacenamiento para poder analizarlos posteriormente.
+    
+    - Este sistema de almacenamiento y explotación no es muy eficiente cuando se tiene que gestionar grandes volúmenes de logs que se generan a altas velocidades, pues las bases de datos relacionales no escalan lo suficiente.
+
+- **Almacenamiento en bases de datos NoSql**: 
+    
+    - Las bases de datos NoSql vienen a solventar el problema de volumen, velocidad y escalabilidad de las bases de datos tradicionales, permitiendo almacenar grandes volúmenes de datos a velocidades muy altas, escalando fácilmente y a menor coste cuando se necesita.
+    
+    - Por otro lado se encuentran los motores de indexación como Elasticsearch, sistemas que permiten indexar y almacenar muy rápidamente grandes volúmenes de información, incluso servir como motores de indexación de otras bases de datos.
+
