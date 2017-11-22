@@ -1,0 +1,8 @@
+## 8. Conclusiones
+
+La gestión de logs engloba un conjunto de técnicas y operaciones que afectan a toda la infraestructura de un sistema de información. Los protocolos de comunicaciones, la naturaleza de los dispositivos generadores de registros, la propia red de comunicaciones, formatos de mensajes, transmisión de grandes volúmenes de datos, almacenamiento eficiente... Son muchos los factores a tener en cuenta a la hora de construir una plataforma de gestión de logs
+
+Una solución consiste en dividir el problema en componentes aislados con una funcionalidad específica y empezar a montar un sistema de gestión de logs desde cero. Existen también soluciones que integran herramientas para cada una de las funcionalidades y facilitan el proceso, pero, a su vez, permiten el desacople de sus componentes y para poder ser reemplazados por otros.
+
+Cada solución cuenta con ventajas e inconvenientes. La elección dependerá de las especificaciones del caso de uso y de las preferencias personales.
+
