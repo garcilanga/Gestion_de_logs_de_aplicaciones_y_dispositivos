@@ -1,0 +1,80 @@
+## 9. Referencias y ms información
+
+- Administración de LOGS:
+    - Administración de LOGS:
+		- https://manuelvieda.com/blog/administracion-de-logs/
+    - Sácale partido a los datos: los ficheros log:
+		- http://tecnologiasweb.jsenso.es/los-ficheros-log/
+    - Logstash vs Graylog2:
+		- https://www.slant.co/versus/958/965/~logstash_vs_graylog2
+    - Log Management: Graylog Vs ELK:
+		- http://jetruby.com/expertise/graylog-vs-elk/
+
+- ELK:
+    - The Complete Guide to the ELK Stack:
+		- https://logz.io/learn/complete-guide-elk-stack/
+    - Introducción a ELK (Elasticsearch, Logstash y Kibana) (parte 1):
+		- http://elmanytas.es/?q=node/318
+    - Introducción a ELK (Elasticsearch, Logstash y Kibana) (parte 2):
+		- http://elmanytas.es/?q=node/320
+    - Introducción a ELK (Elasticsearch, Logstash y Kibana) (parte 3):
+		- http://elmanytas.es/?q=node/326
+    - Monitorización de logs con el stack ELK (Elasticsearch, logstash y Kibana):
+		- http://developerlover.com/monitorizacion-logs-stack-elk-elasticsearch-logstash-kibana/
+    - Tratamiento de Logs masivos:
+		- https://www.libreadmin.es/tratamiento-de-logs/
+
+- Graylog2:
+    - Graylog2:
+		- https://www.graylog.org/
+    - Architectural considerations:
+		- http://docs.graylog.org/en/1.0/pages/architecture.html#minimum-setup
+    - Graylog - Arquitectura tolerante a fallos y escalable:
+		- http://javierjeronimo.es/2015/03/23/graylog-arquitectura-tolerante-a-fallos-y-escalable/
+    - 250 GB/day of logs with Graylog: Lessons Learned:
+		- https://thehftguy.com/2016/09/12/250-gbday-of-logs-with-graylog-the-good-the-bad-and-the-ugly/
+    - Zimbra: Logs centralizados con Logstash y Kibana sobre Ubuntu 14.04:
+		- https://www.jorgedelacruz.es/2014/12/16/zimbra-logs-centralizados-con-logstash-y-kibana-sobre-ubuntu-14-04/
+    - Setting up a Graylog Log Management Server:
+		- https://tom-henderson.github.io/2015/04/15/graylog.html
+    - Logstash + graylog2 – cant ask more for logging:
+		- https://boojapathy.wordpress.com/2012/04/29/logstash-graylog-cant-ask-more-for-logging/
+    - Graylog Collector (deprecated):
+		- http://docs.graylog.org/en/2.2/pages/collector.html
+
+- Logstash:
+    - Logstash - stdin plugins:
+		- https://www.elastic.co/guide/en/logstash/current/plugins-inputs-stdin.html
+    - Logstash - filter plugins:
+		- https://www.elastic.co/guide/en/logstash/current/filter-plugins.html
+    - Logstash - stdout plugins:
+		- https://www.elastic.co/guide/en/logstash/current/plugins-outputs-stdout.html
+    - Logstash - gelf plugin:
+		- https://www.elastic.co/guide/en/logstash/current/plugins-outputs-gelf.html
+    - Logstash:
+		- https://www.elastic.co/products/logstash
+
+- Varios:
+    - 5 Logstash Alternatives:
+		- https://sematext.com/blog/2016/09/13/logstash-alternatives/
+    - NXLOG:
+		- http://nxlog-ce.sourceforge.net/
+    - Fluentd:
+		- http://www.fluentd.org/
+    - Fluentd vs. LogStash: A Feature Comparison:
+		- https://www.loomsystems.com/single-post/2017/01/30/A-Comparison-of-Fluentd-vs-LogStash-Log-Collector
+    - Fluentd vs. Logstash: A Comparison of Log Collectors:
+		- http://logz.io/blog/fluentd-logstash/
+    - Fluentd vs Logstash:
+		- http://jasonwilder.com/blog/2013/11/19/fluentd-vs-logstash/
+	- 10 Tips for Proper Application Logging
+		- https://www.javacodegeeks.com/2011/01/10-tips-proper-application-logging.html
+
+- Desarrollo con Pyhon:
+	- logstashHandler 0.1.4 - Basic logging handler for sending to a logstash instance via UDP or TCP encoded as json
+    	- https://pypi.python.org/pypi/logstashHandler/0.1.4
+	- python-logstash 0.4.6 - Python logging handler for Logstash
+    	- https://pypi.python.org/pypi/python-logstash
+	- graypy 0.2.14 - Python logging handler that sends messages in GELF (Graylog Extended Log Format)
+    	- https://pypi.python.org/pypi/graypy
+
