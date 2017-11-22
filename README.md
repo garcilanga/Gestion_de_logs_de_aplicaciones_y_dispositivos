@@ -2,7 +2,7 @@
 
 ## Índice
 
-1. Logs
+1. [Logs](1. Logs.md)
 2. Recolección de logs
 3. Almacenamiento de logs
 4. Análisis y monitorización de logs
