@@ -2,7 +2,7 @@
 
 ## Índice
 
-- [1. Logs](https://github.com/garcilanga/logs/blob/master/1.%20Logs.md)
+- [1. Logs](1.%20Logs.md)
 - [2. Recolección de logs](https://github.com/garcilanga/logs/blob/master/2.%20Recolecci%C3%B3n%20de%20logs.md)
 - [3. Almacenamiento de logs](https://github.com/garcilanga/logs/blob/master/3.%20Almacenamiento%20de%20logs.md)
 - [4. Análisis y monitorización de logs](https://github.com/garcilanga/logs/blob/master/4.%20An%C3%A1lisis%20y%20monitorizaci%C3%B3n%20de%20logs.md)
