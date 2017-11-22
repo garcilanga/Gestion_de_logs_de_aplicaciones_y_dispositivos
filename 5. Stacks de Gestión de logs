@@ -1,0 +1,18 @@
+## 5. Stacks de Gestión de logs
+
+Existen también **soluciones de almacenamiento centralizado y monitorización de logs** que integran en un único paquete todas las herramientas necesarias para la gestión de logs.
+
+Los stack **ELK** y **Graylog2** son dos de estas soluciones más populares, dos proyectos de código abierto distintos pero similares en concepto, dos herramientas que pueden utilizarse en la recogida, almacenamiento y monitorización de logs de todo tipo: logs de sistema, de aplicaciones, de dispositivos...
+
+Ambas herramientas permiten **reunir todos los logs de una arquitectura compleja en un mismo lugar** en vez de tenerlos repartidos por decenas de servidores y rutas. Además, ya que todas las trazas acaban almacenadas en el mismo lugar y es sencillo navegar por ellas, es muy fácil **aumentar la calidad** de estas revisándolas.
+
+Además de procesar y almacenar logs, ELK y Graylog2 permiten realizar consultas sobre los datos y crear **paneles gráficos o dashboards** con los resultados de dichas consultas.
+
+**ELK** está formado por tres herramientas: Logstash para la captación de datos, Elasticsearch para el almacenamiento e indexación de los datos y Kibana para la explotación y visualización de los datos.
+
+**Graylog2** puede recibir datos de diferentes orígenes y distintos protocolos, los procesa y se apoya en Elasticsearch para su almacenamiento e indexación. Su interfaz gráfica permite posteriormente la explotación y visualización de los datos.
+
+Graylog2 permite además, a **diferencia** de la versión libre de ELK, definir alarmas sobre la presencia o ausencia de información. Por contra, Kibana (ELK) dispone de mayor variedad de tipos de gráficos.
+
+Ante cualquier escenario **es recomendable explorar distintas soluciones entes de tomar una decisión**.
+
